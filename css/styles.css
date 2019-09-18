@@ -1,0 +1,96 @@
+
+body
+{
+    height: fit-content;
+    font-family: Montserrat;
+    background: rgb(250,252,222);
+    background: linear-gradient(180deg, rgba(250,252,222,1) 4%, rgba(214,101,30,1) 23%, rgba(133,53,26,1) 39%, rgba(9,9,32,1) 60%);
+    color: black;
+    padding-bottom: 5%;
+    
+}
+
+p{
+    text-align: center;
+}
+
+.form-control{
+    border-radius: 30px;
+}
+
+#logo{
+    width: 100%;
+    height: 100%;
+} 
+
+ #appLogo{
+    margin-top: 3%;
+    margin-bottom: 3%;
+} 
+
+#appName{
+    color: white;
+}
+
+#register{
+    padding: 2%;
+    background-repeat: no-repeat;
+    background: #E8D3D3;
+    mix-blend-mode: luminosity;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    
+}
+
+#InputEmail,#InputPassword
+{
+    color: black;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: normal;
+}
+#info
+{
+    font-size: 18px;
+    color: black;
+    margin-bottom: 5%;
+}
+
+#forgotPassword{
+    color: black;
+    font-size: 18px;
+}
+
+#loginBtn{
+    width: 70%;
+    font-size: 48px;
+    color: white;
+    background: #FB3640;
+    border-radius: 15px;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+#createAccountBtn{
+    background: #247BA0;
+    border-radius: 15px;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    font-size: 36px;
+    color: white;
+}
+
+
+#InputEmail::placeholder,#InputPassword::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+  
+  #InputEmail:-ms-input-placeholder,#InputPassword:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black;
+  }
+  
+  #InputEmail::-ms-input-placeholder, #InputPassword::-ms-input-placeholder  { /* Microsoft Edge */
+    color: black;
+  }
